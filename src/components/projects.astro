@@ -4,6 +4,8 @@ import markandtell from "../../public/markandtell.webp";
 import dataCloudAI from "../../public/data-cloud-ai.webp";
 import gainskills from "../../public/gainskills.webp";
 import dcx from "../../public/dcx.webp";
+import hrAndLnd from "../../public/hr-and-lnd.webp";
+import manufacturing from "../../public/manufacturing.webp";
 
 interface Project {
     title: string;
@@ -40,6 +42,20 @@ const projects: Project[] = [
         image: dcx as ImageMetadata,
         link: "https://github.com/harsh1214/dcx",
         preview: "https://dcx-psi.vercel.app",
+        status: "Deployed",
+    },
+    {
+        title: "HR and L&D",
+        image: hrAndLnd as ImageMetadata,
+        link: "https://github.com/harsh1214/hr-and-lnd",
+        preview: "https://hr-and-lnd.vercel.app",
+        status: "Deployed",
+    },
+    {
+        title: "Manufacturing",
+        image: manufacturing as ImageMetadata,
+        link: "https://github.com/harsh1214/manufacturing",
+        preview: "https://manufacturing-mocha.vercel.app",
         status: "Deployed",
     },
 ];
