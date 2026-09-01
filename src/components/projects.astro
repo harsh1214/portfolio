@@ -6,6 +6,8 @@ import gainskills from "../../public/gainskills.webp";
 import dcx from "../../public/dcx.webp";
 import hrAndLnd from "../../public/hr-and-lnd.webp";
 import manufacturing from "../../public/manufacturing.webp";
+import blogging from "../../public/bloggin-.webp";
+import AiResumeReviewerAndInterviewPrep from "../../public/ai-resume-reviewer-and-interview-prep.png";
 
 interface Project {
     title: string;
@@ -16,6 +18,20 @@ interface Project {
 }
 
 const projects: Project[] = [
+    {
+        title: "AI Resume Reviewer & Interview Prep'",
+        image: AiResumeReviewerAndInterviewPrep as ImageMetadata,
+        link: "https://github.com/harsh1214/ai-resume-reviewer-and-interview-prep",
+        preview: "https://ai-resume-reviewer-and-interview-pr.vercel.app/",
+        status: "Deployed",
+    },
+    {
+        title: "Bloggin'",
+        image: blogging as ImageMetadata,
+        link: "https://github.com/harsh1214/bloggin-",
+        preview: "https://bloggin-roan.vercel.app/",
+        status: "Deployed",
+    },
     {
         title: "Gain Skills",
         image: gainskills as ImageMetadata,
